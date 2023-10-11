@@ -21,15 +21,15 @@ IBIs extracted from CV-based method are distributed in a much wider range than r
 CV-based method is equally suitable for measurements over a long period while radar retains its accuracy over short-time measurements.
 ## Study of Environmental Factors
 The impact of several environmental factors on both architectures is investigated, including distance, illumination, and motion.
-## Impact of Distance
+### Impact of Distance
 ![image](https://github.com/GengqianYang/Non-contact-Heart-Rate-Monitoring-A-Comparative-Study-of-Computer-Vision-and-Radar-Approaches/assets/62884839/1447e861-0bbd-45ba-bc03-72c88e84cbaf)
 Relative errors for both architectures are all below 0.5% in distances found in practical DMS.
 Relative errors for both methods increase exponentially with distance.
 Radar-based approach might be more sensitive to range compared to CV-based approach. 
-## Impact of Illumination
+### Impact of Illumination
 ![image](https://github.com/GengqianYang/Non-contact-Heart-Rate-Monitoring-A-Comparative-Study-of-Computer-Vision-and-Radar-Approaches/assets/62884839/f109aa41-60d8-4324-aeab-d77b20ab6ea9)
 The proposed CV-based method is relatively invariant to adverse illumination conditions.
 The low and flickering light conditions only increased the relative error by 0.93% and 1.8%, respectively.
-## Impact of Motion
+### Impact of Motion
 ![image](https://github.com/GengqianYang/Non-contact-Heart-Rate-Monitoring-A-Comparative-Study-of-Computer-Vision-and-Radar-Approaches/assets/62884839/829e6dcb-d492-4027-af5e-ed4838973dee)
 The CV-based method is more robust to head motion than the radar-based method is to body movement.
