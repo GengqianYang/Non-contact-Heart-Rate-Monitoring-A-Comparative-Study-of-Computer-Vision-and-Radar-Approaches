@@ -16,9 +16,20 @@ pyrealsense2 (for the realsense RGBD camera).
 Due to the different underlying principles of the ECG and non-contact HR monitoring methods, there are variations in the IBI distributions obtained from each sensor type. For example, the ECG measures electrical activity so the timing of the peak with the highest amplitude (the R-peak) does not exactly coincide with the resulting cardiac muscle contraction, and the peaks in radar signals are related to mechanical changes occurring sometime after the muscle contraction. For the CV-based rPPG method, the detected peaks lag the ECG due to the time taken for the blood volume to change.
 ![image](https://github.com/GengqianYang/Dataset/assets/62884839/72141916-4e4a-4292-9b30-ffd0bda14746)![image](https://github.com/GengqianYang/Dataset/assets/62884839/0b73c386-4af0-4a55-ab77-7e0268de9270)
 ![image](https://github.com/GengqianYang/Dataset/assets/62884839/b1cefa52-2f71-4899-8df6-2952e2a6699e)![image](https://github.com/GengqianYang/Dataset/assets/62884839/0b205670-98ad-44c7-82bb-ec4e96a176d6)
-
-
-
-
-
-
+No consistent bias exists for either method.
+IBIs extracted from CV-based method are distributed in a much wider range than radar-based method.
+CV-based method is equally suitable for measurements over a long period while radar retains its accuracy over short-time measurements.
+## Study of Environmental Factors
+The impact of several environmental factors on both architectures is investigated, including distance, illumination, and motion.
+## Impact of Distance
+![image](https://github.com/GengqianYang/Non-contact-Heart-Rate-Monitoring-A-Comparative-Study-of-Computer-Vision-and-Radar-Approaches/assets/62884839/1447e861-0bbd-45ba-bc03-72c88e84cbaf)
+Relative errors for both architectures are all below 0.5% in distances found in practical DMS.
+Relative errors for both methods increase exponentially with distance.
+Radar-based approach might be more sensitive to range compared to CV-based approach. 
+## Impact of Illumination
+![image](https://github.com/GengqianYang/Non-contact-Heart-Rate-Monitoring-A-Comparative-Study-of-Computer-Vision-and-Radar-Approaches/assets/62884839/f109aa41-60d8-4324-aeab-d77b20ab6ea9)
+The proposed CV-based method is relatively invariant to adverse illumination conditions.
+The low and flickering light conditions only increased the relative error by 0.93% and 1.8%, respectively.
+## Impact of Motion
+![image](https://github.com/GengqianYang/Non-contact-Heart-Rate-Monitoring-A-Comparative-Study-of-Computer-Vision-and-Radar-Approaches/assets/62884839/829e6dcb-d492-4027-af5e-ed4838973dee)
+The CV-based method is more robust to head motion than the radar-based method is to body movement.
