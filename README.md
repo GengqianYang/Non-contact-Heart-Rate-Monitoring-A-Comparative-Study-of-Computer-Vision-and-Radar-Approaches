@@ -33,3 +33,5 @@ The low and flickering light conditions only increased the relative error by 0.9
 ### Impact of Motion
 ![image](https://github.com/GengqianYang/Non-contact-Heart-Rate-Monitoring-A-Comparative-Study-of-Computer-Vision-and-Radar-Approaches/assets/62884839/829e6dcb-d492-4027-af5e-ed4838973dee)
 The CV-based method is more robust to head motion than the radar-based method is to body movement.
+
+Please see the full paper for details DOI: 10.1007/978-3-031-44137-0_7.
