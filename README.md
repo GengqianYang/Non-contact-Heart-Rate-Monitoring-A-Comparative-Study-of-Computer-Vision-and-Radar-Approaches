@@ -3,11 +3,11 @@ Gengqian Yang, Benjamin Metcalfe, Robert Watson, and Adrian Evans
 ## Introduction
 The Heart Rate (HR) is a vital sign that is used to assess the physical and mental state of an individual. There is a growing interest in incorporating HR measurement into Driver Monitoring Systems (DMS), providing physiological measurements to help address long-existing road safety issues by minimising human error. In real-world driving scenarios, the HR must be measured using non-contact approaches that avoid distracting or restricting the driver. The most common approaches to non-contact HR measurement use either computer vision (CV) or mm-wave radar, both showing acceptable performances in controlled studies. However, the relative merits of different sensor modalities for real-world scenarios remain unclear, and the potential benefits of a combined approach are unquantified. To address these questions, this paper first proposes and implements non-contact HR measurement architectures for both CV and mm-wave radar systems and characterises their HR estimation performance, using electrocardiography (ECG) to provide ground truth measurements. The effects of distance to sensors and of illumination variations on HR estimation are also studied, showing the relative errors for both modalities to be less than 0.5% for the distances found in practical DMS. These results also highlight the distinctive characteristics of each modality and the benefits of a multi-modality approach for DMS.
 ## Prerequisites
-Python 3;
-OpenCV python;
-Deepface;
-ltr11 (for the bgt60ltr11aip radar);
-pyrealsense2 (for the realsense RGBD camera).
+Python 3
+OpenCV python
+Deepface
+ltr11 (for the bgt60ltr11aip radar)
+pyrealsense2 (for the realsense RGBD camera)
 ## Proposed CV-based HR Monitoring Architecture
 ![image](https://github.com/GengqianYang/Dataset/assets/62884839/41f4d109-e610-4efb-93f4-e29ff4812b41)
 ## Proposed Radar-based HR Monitoring Architecture
